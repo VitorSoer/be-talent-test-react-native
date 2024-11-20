@@ -18,8 +18,8 @@ export const Home = () => {
     try {
       setLoading(true);
 
-      const { data } = await getEmployees();
-      setEmployees(data);
+      const result = await getEmployees();
+      setEmployees(result);
     } catch (error) {
       console.error('Error at fetchEmployeesData: ', error);
     } finally {
