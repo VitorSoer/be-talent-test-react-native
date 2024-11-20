@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "be-talent",
-    "slug": "be-talent",
+    "slug": "be-talent-mobile-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/splash.webp",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#0500FF"
     },
@@ -15,9 +15,27 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/Helvetica.ttf"]
+          "fonts": [
+            "./assets/fonts/Helvetica.ttf"
+          ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c41ba84f-b030-4745-9e0b-4392265cfb52"
+      }
+    },
+    "owner": "vitor_soer",
+    "android": {
+      "package": "com.vitor_soer.betalentmobiletest"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c41ba84f-b030-4745-9e0b-4392265cfb52"
+    },
+    "ios": {}
   }
 }
